@@ -23,7 +23,7 @@ module.exports = () => {
 		plugins: [
 			new HtmlWebpackPlugin({
 				template: './index.html',
-				title: 'J.A.T.E.',
+				title: 'B.T.E.',
 			}),
 			// Injects our custom service worker
 			new InjectManifest({
@@ -33,15 +33,15 @@ module.exports = () => {
 			new WebpackPwaManifest({
 				fingerprints: false,
 				inject: true,
-				name: 'Just Another Text Editor',
-				short_name: 'J.A.T.E.',
+				name: 'Basic Text Editor',
+				short_name: 'B.T.E.',
 				background_color: '#225ca3',
 				theme_color: '#225ca3',
 				start_url: '/',
 				publicPath: '/',
 				icons: [
 					{
-						src: path.resolve('src/images/logo.png'),
+						src: path.resolve('src/images/collie-stencil-image.svg'),
 						sizes: [96, 128, 192, 256, 384, 512],
 						destination: path.join('assets', 'icons'),
 					},
