@@ -1,38 +1,39 @@
 {
   "icons": [
     {
-      "src": "/assets/icons/icon_512x512.png",
+      "src": "/assets/icons/collie-stencil.ico",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/assets/icons/icon_384x384.png",
+      "src": "//assets/icons/collie-stencil.ico",
       "sizes": "384x384",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/assets/icons/icon_256x256.png",
+      "src": "/assets/icons/collie-stencil.ico",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/assets/icons/icon_192x192.png",
+      "src": "/assets/icons/collie-stencil.ico",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/assets/icons/icon_128x128.png",
+      "src": "/assets/icons/collie-stencil.ico",
       "sizes": "128x128",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/assets/icons/icon_96x96.png",
+      "src": "/assets/icons/collie-stencil.ico",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/x-icon"
+
     }
   ],
-  "name": "Just Another Text Editor",
-  "short_name": "J.A.T.E.",
+  "name": "Basic Text Editor",
+  "short_name": "B.T.E.",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
