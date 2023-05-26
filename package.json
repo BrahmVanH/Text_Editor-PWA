@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "BTE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic Text Editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
